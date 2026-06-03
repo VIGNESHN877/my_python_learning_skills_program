@@ -6,7 +6,30 @@ def add(): #part 1 of the coding
     b=7
     print(a+b)
 
-a=44    
-b=66
-print(a+b) # part 2 of the coding 
+ 
 add()
+
+a=10
+b=12
+print(a+b)
+add()
+
+
+# Global as a keyword of the outside of the program 
+
+
+# quiz 
+
+def change():
+    x=20
+    print(x)
+
+change()
+
+"""def change():
+    x=20
+   
+
+change() this has been a error because print statement or return statement not in the function so did not 
+         get for a value in the x 
+print(x)"""
