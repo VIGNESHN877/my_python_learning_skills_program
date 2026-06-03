@@ -1,7 +1,6 @@
 """
 
 
-
 def area_of_retangle(length,weith): # this is a paramenters in the function (length,weith)==> positional Argument 
    
     area=length*weith
@@ -19,7 +18,7 @@ print(retangle_area)"""
 
  # In the Position value are passed based on the their poisition (order) in their function cells 
 
-name=input("Enter Your Name : ")
+"""name=input("Enter Your Name : ")
 age=input("Enter your age :")
  #Example :
 def student(name,age):
@@ -27,7 +26,7 @@ def student(name,age):
       print("age:",age)
 
 
-student(name,age)
+student(name,age)"""
 
 #this  is a positional argument its used for a parameter on the value and assign to the value in the print statement of the value 
 
@@ -37,4 +36,19 @@ student(name,age)
 #21 ==>goes to age 
 
 
-#keywor
+#keyword  Argument :
+
+
+# Value are passed using Paremeter Name :
+
+#Example :
+def student(name,age):
+    print("Name:",name)
+    print("Age :", age)
+
+    
+student(age="21",name="Vignesh N")
+    
+# Explanation  in the code is keys values calling to the paramenters 
+
+#Order Does not Matter Because name are specified 
