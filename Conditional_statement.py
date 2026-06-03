@@ -1,10 +1,10 @@
 #COndition_Statement 
-"""
+
 if (5==5):
     print('5 is equal to 5')
     print("program successful !")
     print("Done !")
-"""
+
 
 
 def one():
@@ -54,7 +54,7 @@ def three():
 
 #three()
 
-"""a=int(input())
+a=int(input())
 
 if(a>1):
     print('a is one')
@@ -67,12 +67,12 @@ if(a>1):
     else:
         print("this is a not equal 5")
 
-"""
-'''age=int(input("Enter Your :"))
-eat_pizza=False 
-exercise=True '''
 
-"""if(age <30): # 0 to 30
+age=int(input("Enter Your :"))
+eat_pizza=False 
+exercise=True 
+
+if(age <30): # 0 to 30
 
     if eat_pizza:
         print("unfit")
@@ -85,16 +85,16 @@ else:
 
         print("unfit")
 
-        """
+      
 
 #TERNRRY OPEARATOR 
 
-"""print("CHILD" if(age<18) else "ADULT")
+print("CHILD" if(age<18) else "ADULT")
 
 print(("unfit" if(eat_pizza) else "fit")if(age<30) else("fit" if(exercise) else"unfit") )
 
 
-"""
+
 
 def mass():
     income=int(input("Enter Your a income :"))
@@ -117,7 +117,7 @@ def mass():
 
 #odd are even
 
-"""def odd():
+def odd():
 
     number=int(input("Enter a Number :"))
 
@@ -126,6 +126,6 @@ def mass():
     else:
         print("Odd NUmber :",number)
 
-odd()"""
+odd()
 number21=int(input("Enter a Number :"))
 print("Even Number :" if(number21%2==0) else"Odd Number :",number21) 
