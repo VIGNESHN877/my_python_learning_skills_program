@@ -60,11 +60,33 @@ student(age="21",name="Vignesh N")
 # If no values is provided , in the -python user the defult
 
 #Example :
-
+"""
 def greet(name="Guest"): # this a dewfult value is a Guest in the python program 
     print("Hello",name) # this is print statement and add for a parameter funtion statement 
 
 
 greet()   # print for a greet function a statement  there are print for a Defult Name function of the Vlaue 
 greet("Vignesh N") # this line callege for a updated for a new line of the function in the statement \
-greet("Dinesh Kumar S") # exmple 2 : this line callege for a updated for a new line of the function in the statement 
+greet("Dinesh Kumar S") # exmple 2 : this line callege for a updated for a new line of the function in the statement """
+
+
+#Combined Example :
+
+"""
+1.Positional Argument 
+2.Keyword Argument 
+3.Defult Argument 
+
+there are is three type of Argument combined in the program in the code that name callege is a Combined Argument 
+"""
+
+def employee(name,age="21",city="salem"):
+    print("Name :",name)
+    print("Age :",age)
+    print("city :",city)
+
+employee("Baskar")
+print()
+employee("VIgnesh N","22","Chinnasalem")
+print()
+employee(name="Dinesh",age=21,city="malliyakari")
