@@ -1,4 +1,4 @@
-"""
+
 
 
 def area_of_retangle(length,weith): # this is a paramenters in the function (length,weith)==> positional Argument 
@@ -10,8 +10,7 @@ length=int(input("Enter the area of Length :")) #this function calculates the ar
 weith=int(input("Enter the area of weith :")) # input value of the weith and length
 #function output argumnet of the value 
 retangle_area=area_of_retangle(length,weith) #pasitional Argument (frist value, secoud value)
-print(retangle_area)"""
-
+print(retangle_area)
 
 
  #1.Position (order)
@@ -34,7 +33,7 @@ student(name,age)"""
 # Explanation
 #vignesh ===> goes to name 
 #21 ==>goes to age 
-"""
+
 
 #keyword  Argument :
 
@@ -48,7 +47,7 @@ def student(name,age):
 
     
 student(age="21",name="Vignesh N")
-    """
+   
 # Explanation  in the code is keys values calling to the paramenters 
 
 #Order Does not Matter Because name are specified 
@@ -60,7 +59,7 @@ student(age="21",name="Vignesh N")
 # If no values is provided , in the -python user the defult
 
 #Example :
-"""
+
 def greet(name="Guest"): # this a dewfult value is a Guest in the python program 
     print("Hello",name) # this is print statement and add for a parameter funtion statement 
 
@@ -79,7 +78,7 @@ greet("Dinesh Kumar S") # exmple 2 : this line callege for a updated for a new l
 
 there are is three type of Argument combined in the program in the code that name callege is a Combined Argument 
 """
-"""
+
 def employee(name,age="21",city="salem"):
     print("Name :",name)
     print("Age :",age)
@@ -90,7 +89,7 @@ print()
 employee("VIgnesh N","22","Chinnasalem")
 print()
 employee(name="Dinesh",age=21,city="malliyakari")
-"""
+
 
 
 # quiz 
