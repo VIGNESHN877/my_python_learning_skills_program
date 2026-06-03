@@ -34,7 +34,7 @@ student(name,age)"""
 # Explanation
 #vignesh ===> goes to name 
 #21 ==>goes to age 
-
+"""
 
 #keyword  Argument :
 
@@ -48,7 +48,23 @@ def student(name,age):
 
     
 student(age="21",name="Vignesh N")
-    
+    """
 # Explanation  in the code is keys values calling to the paramenters 
 
 #Order Does not Matter Because name are specified 
+
+
+# Defult Argument 
+
+# function Parameters Have Defult value. 
+# If no values is provided , in the -python user the defult
+
+#Example :
+
+def greet(name="Guest"): # this a dewfult value is a Guest in the python program 
+    print("Hello",name) # this is print statement and add for a parameter funtion statement 
+
+
+greet()   # print for a greet function a statement  there are print for a Defult Name function of the Vlaue 
+greet("Vignesh N") # this line callege for a updated for a new line of the function in the statement \
+greet("Dinesh Kumar S") # exmple 2 : this line callege for a updated for a new line of the function in the statement 
