@@ -79,7 +79,7 @@ greet("Dinesh Kumar S") # exmple 2 : this line callege for a updated for a new l
 
 there are is three type of Argument combined in the program in the code that name callege is a Combined Argument 
 """
-
+"""
 def employee(name,age="21",city="salem"):
     print("Name :",name)
     print("Age :",age)
@@ -90,3 +90,17 @@ print()
 employee("VIgnesh N","22","Chinnasalem")
 print()
 employee(name="Dinesh",age=21,city="malliyakari")
+"""
+
+
+# quiz 
+def factorial(n):
+    if (n==0):
+        return 1
+    
+    else :
+        return n*factorial(n-1)
+    
+n = int(input("Enter the N value of Number  :"))
+result=factorial(n)
+print(result)
