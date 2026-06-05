@@ -98,7 +98,7 @@ car1.moveforword()
 
 # super is used to call parent class method .
 
-class person:                       #parent class
+"""class person:                       #parent class
 
     def __init__(self,name):       # function 
         self.name=name
@@ -112,7 +112,7 @@ class student(person):   #child class
 object=student("vignesh N",90)
 print(object.name)
 print(object.mark)
-
+"""
 
 # here Super.__init__(name) call the parent class constructor 
 
@@ -120,4 +120,40 @@ print(object.mark)
 # simple Definition :
 
 # inhertance means creating a new class form an existing class and rensing its properties and methods.
+
+
+
+class vehicle : # parent class
+    no_of_wheels=4
+
+
+    def moveforword(self):
+        print("Vehicle is moving forword !")
+
+
+
+class car(vehicle):  # child class 
+    no_of_airbages=3
+
+car1=car()
+print(car1.no_of_wheels)
+print(car1.no_of_airbages)
+
+car1.moveforword()
+#There are reused for parent class to child class
+
+class bike(vehicle): # child class 2 
+    mileage=60.0
+
+# 3) Multi - level Inheritance 
+
+class Maruthi(car): # New class called a old child  class 
+    mileage=25.0
+
+car2=Maruthi() # class print to the tree of child class
+print(car2.no_of_airbages)
+print(car2.no_of_wheels)
+print(car2.mileage)
+car2.moveforword()
+
 
