@@ -1,4 +1,4 @@
-"""#parent class
+#parent class
 
 
 class Animal:
@@ -17,24 +17,24 @@ object.bark()
 
 
 
-#i exptced output is : animal makes sound , Dog bark"""
+#i exptced output is : animal makes sound , Dog bark
 
 
 
 """
 type of tnheritance in python 
 1.single inhertance
-once child inherits one parent 
+once child inherits one parent
 
 class A :
    pass
 class B:
     pass
-"""
 
-"""
+
+
 2.Muliple inheritance 
-once child inherits multiple parents 
+once child inherits multiple parents
 
 class A:
     pass
@@ -43,9 +43,9 @@ class B:
     
 class(A,B):
     pass
-"""
 
-"""
+
+
 3.Multiple Inheritance
 
 class A:
@@ -56,9 +56,9 @@ class B:
 class c(B):
     pass
     
-"""
 
-"""
+
+
 4.Hierachial Inheritance 
 
 Multiple child class inherit one perent 
@@ -69,12 +69,12 @@ class B(A):
 class A(B):
     pass
 
-"""
 
-"""
+
+
 5.Hybird inheritance is a cobination of the Different inheritance types
-"""
-"""
+
+
 class vehicle: # parent class
     no_of_wheels=4
 
@@ -91,14 +91,14 @@ car1=car()
 print(car1.no_of_airbages)
 print(car1.no_of_wheels)
 
-car1.moveforword()
+car1.moveforword()"""
 
-#There are reused for parent class to child class """
+#There are reused for parent class to child class
 
 
 # super is used to call parent class method .
 
-"""class person:                       #parent class
+class person:                       #parent class
 
     def __init__(self,name):       # function 
         self.name=name
@@ -112,7 +112,7 @@ class student(person):   #child class
 object=student("vignesh N",90)
 print(object.name)
 print(object.mark)
-"""
+
 
 # here Super.__init__(name) call the parent class constructor 
 
@@ -121,7 +121,7 @@ print(object.mark)
 
 # inhertance means creating a new class form an existing class and rensing its properties and methods.
 
-"""
+
 
 class vehicle : # parent class
     no_of_wheels=4
@@ -157,13 +157,13 @@ print(car2.mileage)
 car2.moveforword()
 # there are called Multi Level Inheritance
 
-# grand father---> Farther ---> son ]--> connect with face and body languge but Diffarent skills """
+# grand father---> Farther ---> son ]--> connect with face and body languge but Diffarent skills
 
 
 # Multiple Inheritance 
 
 
-"""class father:
+class father:
     hair_color="White"
 
 class mother:
@@ -179,11 +179,11 @@ child1=child()
 
 print(child1.no_of_legs)
 print(child1.hair_color)
-print(child1.eye_color)"""
+print(child1.eye_color)
 
 #damain program 
 
-"""class car():
+class car():
     no_of_airbages=3
 
 class maruthi(car):
@@ -200,7 +200,7 @@ car1=toythi()
 print(car1.no_of_airbages)
 print(car1.mileage1)
 print(car1.mileage)
-"""
+
 
 #Quiz
 
