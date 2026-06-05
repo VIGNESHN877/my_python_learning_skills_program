@@ -150,10 +150,9 @@ class bike(vehicle): # child class 2
 class Maruthi(car): # New class called a old child  class 
     mileage=25.0
 
-car2=Maruthi() # class print to the tree of child class
+car2=Maruthi() # class print to the child tree class calling 
 print(car2.no_of_airbages)
 print(car2.no_of_wheels)
 print(car2.mileage)
 car2.moveforword()
-
-
+# there are called Multi Level Inheritance
