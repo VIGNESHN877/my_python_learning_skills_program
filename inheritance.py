@@ -74,3 +74,23 @@ class A(B):
 """
 5.Hybird inheritance is a cobination of the Different inheritance types
 """
+
+class vehicle: # parent class
+    no_of_wheels=4
+
+    def moveforword(self):
+        print(
+            "Vehicle is moving forword !"
+        )
+
+
+class car(vehicle): #child class
+        no_of_airbages=3
+
+car1=car()
+print(car1.no_of_airbages)
+print(car1.no_of_wheels)
+
+car1.moveforword()
+
+#There are reused for parent class to child class 
