@@ -121,7 +121,7 @@ print(object.mark)
 
 # inhertance means creating a new class form an existing class and rensing its properties and methods.
 
-
+"""
 
 class vehicle : # parent class
     no_of_wheels=4
@@ -157,4 +157,26 @@ print(car2.mileage)
 car2.moveforword()
 # there are called Multi Level Inheritance
 
-# grand father---> Farther ---> son ]--> connect with face and body languge but Diffarent skills 
+# grand father---> Farther ---> son ]--> connect with face and body languge but Diffarent skills """
+
+
+# Multiple Inheritance 
+
+
+class father:
+    hair_color="White"
+
+class mother:
+    eye_color="blue"
+
+
+class child(father,mother):
+    no_of_legs=2
+
+   
+child1=child()
+
+
+print(child1.no_of_legs)
+print(child1.hair_color)
+print(child1.eye_color)
