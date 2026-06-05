@@ -156,3 +156,5 @@ print(car2.no_of_wheels)
 print(car2.mileage)
 car2.moveforword()
 # there are called Multi Level Inheritance
+
+# grand father---> Farther ---> son ]--> connect with face and body languge but Diffarent skills 
