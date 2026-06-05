@@ -74,7 +74,7 @@ class A(B):
 """
 5.Hybird inheritance is a cobination of the Different inheritance types
 """
-
+"""
 class vehicle: # parent class
     no_of_wheels=4
 
@@ -93,4 +93,31 @@ print(car1.no_of_wheels)
 
 car1.moveforword()
 
-#There are reused for parent class to child class 
+#There are reused for parent class to child class """
+
+
+# super is used to call parent class method .
+
+class person:                       #parent class
+
+    def __init__(self,name):       # function 
+        self.name=name
+
+
+class student(person):   #child class 
+    def __init__(self, name,mark):  # function 
+        super().__init__(name)
+        self.mark=mark
+
+object=student("vignesh N",90)
+print(object.name)
+print(object.mark)
+
+
+# here Super.__init__(name) call the parent class constructor 
+
+
+# simple Definition :
+
+# inhertance means creating a new class form an existing class and rensing its properties and methods.
+
