@@ -163,7 +163,7 @@ car2.moveforword()
 # Multiple Inheritance 
 
 
-class father:
+"""class father:
     hair_color="White"
 
 class mother:
@@ -179,4 +179,24 @@ child1=child()
 
 print(child1.no_of_legs)
 print(child1.hair_color)
-print(child1.eye_color)
+print(child1.eye_color)"""
+
+#damain program 
+
+class car():
+    no_of_airbages=3
+
+class maruthi(car):
+    mileage1=25.0
+
+class toyato(car):
+    mileage=30.0
+
+
+class toythi(maruthi,toyato):
+    has=touchscreen=car
+
+car1=toythi()
+print(car1.no_of_airbages)
+print(car1.mileage1)
+print(car1.mileage)
