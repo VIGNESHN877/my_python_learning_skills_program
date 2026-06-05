@@ -183,7 +183,7 @@ print(child1.eye_color)"""
 
 #damain program 
 
-class car():
+"""class car():
     no_of_airbages=3
 
 class maruthi(car):
@@ -200,3 +200,26 @@ car1=toythi()
 print(car1.no_of_airbages)
 print(car1.mileage1)
 print(car1.mileage)
+"""
+
+#Quiz
+
+class Father:
+    hair_color="White"
+
+    def music():
+        print("Kuthu paatui")
+
+class Mother:
+    hair_color="Black"
+    eye_color="Blue"
+
+class Child(Father,Mother):
+    no_of_legs=2
+    
+Child2=Child()
+
+
+Child.music()
+
+
