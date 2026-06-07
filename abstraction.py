@@ -31,7 +31,6 @@ You Know :
 # Abstract Class
  
 """
-
 class Animal(ABC):
     @abstractmethod
     def sound(self):
@@ -47,5 +46,66 @@ class Dog(Animal):
 
 object=Dog()
 object.sound()
+
+"""
+
+Explation 
+ 
+* ABC --> used to create abstract class 
+* @abstractmethod --> Method must be Implemented in the child class 
+* Dog inherts Aniamls and defines Sound()
+
+why use abstrection ?
+
+Advantages :
+
+* Hides Complex Implemention 
+* Improve is security 
+* makes code easier to maintain 
+
+Example without abstraction !
+
+you expose all internal logic.
+
+
+
+Example with Abstraction :
+
+You expose only necassany functions Simple Definition :
+
+Abstraction Means hiding Internal Implementation Details and Showing only Important 
+Functionality to the user.
+"""
+
+
+
+
+class car(ABC):
+    @abstractmethod 
+    def moveforward(self):
+        pass 
+    def Fm(self):
+        pass
+
+class swift(car):
+    def moveforward(self):
+        print("swift is moving Forword !")
+
+    def movebackward(self):
+        print("swift is moving backword ! ")
+
+    def Fm(self):
+        print("swift FM playing")
+
+
+class innaval(car):
+    def moveforward(self):
+        print("innava is moving forward ! ")
+    
+    def movebackword(self):
+        print("Innava is moving Backwork !")
+
+    def fm(self):
+        print("Innava is playing FM !")
 
 
